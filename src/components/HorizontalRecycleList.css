@@ -1,0 +1,46 @@
+.list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 90%;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .scroll-button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-button {
+    margin-right: 20px;
+  }
+  
+  .right-button {
+    margin-left: 20px;
+  }
+  
+  .list {
+    display: flex;
+    overflow: hidden;
+    scrollbar-width: none;
+    background: none;
+  }
+  
+  .list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+  }
+  
